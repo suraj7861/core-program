@@ -1,4 +1,4 @@
-package Practice;
+package practice;
 import java.util.Scanner;
 public class CheckLeapYear {
 	public static void main(String[] args) {

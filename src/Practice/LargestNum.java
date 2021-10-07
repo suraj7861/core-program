@@ -1,6 +1,6 @@
-package Practice;
+package practice;
 import java.util.Scanner;
-public class Largest_Num {
+public class LargestNum {
 
 	public static void main(String[] args) {
 		int num1, num2, num3;

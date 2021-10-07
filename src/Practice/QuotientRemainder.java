@@ -1,8 +1,8 @@
-package Practice;
+package practice;
 
 import java.util.Scanner;
 
-public class Quotient_Remainder {
+public class QuotientRemainder {
 
 	public static void main(String[] args) {
 		  int divider, divisor;

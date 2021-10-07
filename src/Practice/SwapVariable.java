@@ -1,6 +1,6 @@
-package Practice;
+package practice;
 
-public class Swap_Variable {
+public class SwapVariable {
 
 	public static void main(String[] args) {
 		int x = 10;

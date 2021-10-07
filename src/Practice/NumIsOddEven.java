@@ -1,6 +1,6 @@
-package Practice;
+package practice;
 import java.util.Scanner;
-public class Num_Is_Odd_Even {
+public class NumIsOddEven {
 	public static void main(String[] args) {
 		
 		int num;

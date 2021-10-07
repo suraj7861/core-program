@@ -1,6 +1,6 @@
-package Practice;
+package practice;
 import java.util.Scanner;
-public class Harmonic_Number {
+public class HarmonicNumber {
 
 	public static void main(String[] args) {
 		int n;
@@ -15,7 +15,7 @@ public class Harmonic_Number {
 		
 		for(int i = 1; i <= n; i++) {
 			
-			sum = sum +(double)(1/i);
+			sum = sum +(double)(1.0/i);
 			System.out.println("sum="+ sum);
 		}
 		System.out.println("nth harmonic value is: "+sum);

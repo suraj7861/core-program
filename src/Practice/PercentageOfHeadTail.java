@@ -1,6 +1,6 @@
-package Practice;
+package practice;
 
-public class Percentage_Of_Head_Tail {
+public class PercentageOfHeadTail {
 
 	public static void main(String[] args) {
 		//To command-line argument
@@ -26,12 +26,13 @@ public class Percentage_Of_Head_Tail {
 				totalFlip --;
 			}
 		    
+			System.out.println("Head counter: " + headCounter);
 		    System.out.println("tail counter: " + tailCounter);
-		    System.out.println("Head counter: " + headCounter);
-		    System.out.println("number Of Flip: " + numberOfFlip );
 		    
-			double headPercentage = (double) (headCounter / numberOfFlip) * 100 ;
-			double tailPercentage = (double) (tailCounter / numberOfFlip) * 100 ;
+		    System.out.println("number Of Flip: " + numberOfFlip );
+		    //calculate percentage of head and tail
+			double headPercentage = (headCounter * 1.0 / numberOfFlip) * 100 ;
+			double tailPercentage = (tailCounter * 1.0 / numberOfFlip) * 100 ;
 			
 			System.out.println("Head Percentage: " + headPercentage);
 			System.out.println("Tail Percentage: " + tailPercentage);
